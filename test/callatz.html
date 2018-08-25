@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Callatz</title>
+</head>
+<body>
+	<script src="../src/callatz.js"></script>
+	<script type="text/javascript">
+		(function(data,fn){
+			"use strict";
+
+			var length=function(array){
+				return array.length;
+			};
+
+			var test=function(array,f){
+				for(var i=0;i<length(array);i+=1){
+					try{
+						console.log(f(array[i]));
+					} catch(error){
+						console.log({
+							args:array[i],
+							error:error
+						});
+					}
+				}
+			};
+
+			test(data,fn);
+
+		})([-2,-1,0,1,2,3,4,'hello'],callatz);
+	</script>
+</body>
+</html>
