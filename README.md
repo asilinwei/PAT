@@ -8,6 +8,7 @@ This repository includes some APIs about the algorithms of PAT.
 You can use them as toys.  
   
 APIs:  
-| lala | hehe |  
-| ---- | ---- |  
-| mdzz | hello |  
+| Command | Description |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
