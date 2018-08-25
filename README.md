@@ -9,6 +9,5 @@ You can use them as toys.
   
 APIs:  
   
-|Author|果冻虾仁|
-|---|---
-|E-mail|Jelly.K.Wang@qq.com  
+|[1001 害死人不偿命的(3n+1)猜想 (15)](https://pintia.cn/problem-sets/994805260223102976/problems/994805325918486528)|[callatz.js](https://github.com/asilinwei/PAT/blob/master/src/callatz.js)
+|-----------|----------|
